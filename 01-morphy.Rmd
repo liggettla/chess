@@ -1,11 +1,4 @@
-# Morphy {#morphy}
-
->Available themes are:
->theme: blue, blue2, blue3, canvas, wood, wood2, wood3, maple, green, marble, brown, leather, grey, metal, olive, purple
->bg: light, dark
-
->Add this to the end of the html link to style the board and start at initial position
->?bg=dark&theme=metal#0
+# Paul Morphy {#morphy}
 
 ## Evans Gambit 
 

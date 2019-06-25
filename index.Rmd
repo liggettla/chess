@@ -1,5 +1,5 @@
 --- 
-title: "Data Science With Python"
+title: "Chess Studies" 
 author: "L A Liggett"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -9,8 +9,26 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "Data Science With Python."
+description: "Chess Studies."
 ---
 
 # Overview 
-These are some notes that may be helpful for computational biology analysis that focuses on Python use.
+These are just some chess notes.
+
+There are a number of different themes that can be used for embedded boards, the options for which are listed below:
+
+```{python eval=FALSE}
+theme: blue, blue2, blue3, canvas, wood, wood2, wood3, maple, green, marble, brown, leather, grey, metal, olive, purple
+```
+
+There are also coloration themes:
+
+```{python eval=FALSE}
+bg: light, dark
+```
+
+Here is an example of what should be added after the html link of a study to style the board and start at initial position
+
+```{python eval=FALSE}
+?bg=dark&theme=metal#0
+```

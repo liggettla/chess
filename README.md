@@ -1,2 +1,2 @@
 # chess
-A somewhat organized set of chess studies
+A somewhat organized set of chess studies.
