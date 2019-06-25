@@ -8,172 +8,172 @@
 
 ### Morphy vs A Morphy 1849 2
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/9HbPjh8b?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/9HbPjh8b?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs A Morphy 1849 3
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/jpBqqzc1?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/jpBqqzc1?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs E Morphy 1850
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/jHNx91dd?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/jHNx91dd?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs A D Ayers 1855
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/SbFQHHBm?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/SbFQHHBm?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs J Schulten 1857
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/JDJdgMbl?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/JDJdgMbl?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs Kennicott 1857
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/KG0ETQ0a?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/KG0ETQ0a?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs Meek 1857
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/Pb10tGkL?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/Pb10tGkL?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs Lichtenhein 1857
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/xcD3FIha?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/xcD3FIha?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs Hammond 1857
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/TjNqMIgb?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/TjNqMIgb?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs Stanley 1857
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/wJX1kwPP?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/wJX1kwPP?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs J Schulten 1857
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/7zxmzAPn?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/7zxmzAPn?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs J Schulten 1857 2
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/21eh2w5H?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/21eh2w5H?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs J Schulten 1857 3
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/cKH8mf0X?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/cKH8mf0X?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs S Boden 1858
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/GstknkSI?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/GstknkSI?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs F Deacon 1858
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/g8eiF7Vt?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/g8eiF7Vt?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs Bird 1858
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/GKYTR3Xt?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/GKYTR3Xt?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs NN 1858
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/CQXiP2vw?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/CQXiP2vw?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs de Riviere 1858
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/nTLSV0cu?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/nTLSV0cu?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs NN 1858 2
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/5bR8lzCe?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/5bR8lzCe?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs F H Lewis 1858
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/qTNKH2RH?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/qTNKH2RH?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs T Hampton 1858
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/m8uwDdy3?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/m8uwDdy3?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs J Laroche 1858
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/wL5QiWmU?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/wL5QiWmU?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs NN 1858 3
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/fv7Rh7m7?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/fv7Rh7m7?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs NN 1858 4
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/uqieiO1d?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/uqieiO1d?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs NN 1858 5
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/tSW5xUUM?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/tSW5xUUM?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs NN 1858 6
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/KKC93oAr?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/KKC93oAr?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs Kipping 1858
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/JSyIlhbU?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/JSyIlhbU?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs G Salmon 1858
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/cJRMbmoi?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/cJRMbmoi?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs Anderssen 1858
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/Y0XVftkb?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/Y0XVftkb?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs Loewenthal 1859
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/vytcZzSB?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/vytcZzSB?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs P Journoud 1859
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/6BQ7Msp4?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/6BQ7Msp4?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs de Riviere 1859
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/RB2Q8BRu?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/RB2Q8BRu?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs NN 1859
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/yesCvdKr?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/yesCvdKr?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs de Riviere 1859
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/0r5dsEtX?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/0r5dsEtX?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs F Deacon 1859
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/ZKiIHCpo?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/ZKiIHCpo?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs Loewenthal 1859 2
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/JFTtBFK0?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/JFTtBFK0?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs Mongredien 1859
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/htGaJU7Y?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/htGaJU7Y?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs F Greenaway 1859
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/4OqivtQ3?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/4OqivtQ3?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs H Kennedy 1859
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/4icBRnFb?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/4icBRnFb?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs de Riviere 1863
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/oLCk7Z9K?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/oLCk7Z9K?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs de Riviere 1863 2
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/0r6lxVct?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/0r6lxVct?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs P Capdevielle 1864
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/nfgLx6EX?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/nfgLx6EX?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs C Golmayo 1864
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/9iOCGAb9?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/XRBWMn7r/9iOCGAb9?bg=dark&theme=metal#0" frameborder=0></iframe>

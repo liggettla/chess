@@ -32,3 +32,6 @@ Here is an example of what should be added after the html link of a study to sty
 ```{python eval=FALSE}
 ?bg=dark&theme=metal#0
 ```
+
+And here is an example and embedded chess study.
+<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/SbFQHHBm?bg=dark&theme=metal#0" frameborder=0></iframe>
