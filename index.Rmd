@@ -1,0 +1,16 @@
+--- 
+title: "Data Science With Python"
+author: "L A Liggett"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "Data Science With Python."
+---
+
+# Overview 
+These are some notes that may be helpful for computational biology analysis that focuses on Python use.

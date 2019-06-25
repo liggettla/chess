@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Chapter 4 Visualization | Data Science With Python</title>
+  <meta name="description" content="Chapter 4 Visualization | Data Science With Python.">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="Chapter 4 Visualization | Data Science With Python" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Chapter 4 Visualization | Data Science With Python." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Visualization | Data Science With Python" />
+  
+  <meta name="twitter:description" content="Chapter 4 Visualization | Data Science With Python." />
+  
+
+<meta name="author" content="L A Liggett">
+
+
+<meta name="date" content="2019-06-24">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="jupyter.html">
+<link rel="next" href="biology.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Data Science With Python</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a></li>
+<li class="chapter" data-level="2" data-path="python.html"><a href="python.html"><i class="fa fa-check"></i><b>2</b> Python</a><ul>
+<li class="chapter" data-level="2.1" data-path="python.html"><a href="python.html#chess"><i class="fa fa-check"></i><b>2.1</b> Chess</a></li>
+<li class="chapter" data-level="2.2" data-path="python.html"><a href="python.html#general"><i class="fa fa-check"></i><b>2.2</b> General</a></li>
+<li class="chapter" data-level="2.3" data-path="python.html"><a href="python.html#numba"><i class="fa fa-check"></i><b>2.3</b> Numba</a></li>
+<li class="chapter" data-level="2.4" data-path="python.html"><a href="python.html#cython"><i class="fa fa-check"></i><b>2.4</b> Cython</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="jupyter.html"><a href="jupyter.html"><i class="fa fa-check"></i><b>3</b> JupyterLab</a></li>
+<li class="chapter" data-level="4" data-path="visualization.html"><a href="visualization.html"><i class="fa fa-check"></i><b>4</b> Visualization</a><ul>
+<li class="chapter" data-level="4.1" data-path="visualization.html"><a href="visualization.html#color"><i class="fa fa-check"></i><b>4.1</b> Color</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="visualization.html"><a href="visualization.html#colorschemes"><i class="fa fa-check"></i><b>4.1.1</b> Colorschemes</a></li>
+<li class="chapter" data-level="4.1.2" data-path="visualization.html"><a href="visualization.html#controlling-coloration"><i class="fa fa-check"></i><b>4.1.2</b> Controlling Coloration</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="visualization.html"><a href="visualization.html#matplotlib"><i class="fa fa-check"></i><b>4.2</b> Matplotlib</a></li>
+<li class="chapter" data-level="4.3" data-path="visualization.html"><a href="visualization.html#seaborn"><i class="fa fa-check"></i><b>4.3</b> Seaborn</a></li>
+<li class="chapter" data-level="4.4" data-path="visualization.html"><a href="visualization.html#statistics"><i class="fa fa-check"></i><b>4.4</b> Statistics</a></li>
+<li class="chapter" data-level="4.5" data-path="visualization.html"><a href="visualization.html#various-plot-styles"><i class="fa fa-check"></i><b>4.5</b> Various Plot Styles</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="biology.html"><a href="biology.html"><i class="fa fa-check"></i><b>5</b> Biology</a><ul>
+<li class="chapter" data-level="5.1" data-path="biology.html"><a href="biology.html#general-1"><i class="fa fa-check"></i><b>5.1</b> General</a></li>
+<li class="chapter" data-level="5.2" data-path="biology.html"><a href="biology.html#biopython"><i class="fa fa-check"></i><b>5.2</b> Biopython</a></li>
+<li class="chapter" data-level="5.3" data-path="biology.html"><a href="biology.html#ucsc-genome-browser"><i class="fa fa-check"></i><b>5.3</b> UCSC Genome Browser</a></li>
+<li class="chapter" data-level="5.4" data-path="biology.html"><a href="biology.html#ref-genome"><i class="fa fa-check"></i><b>5.4</b> Ref Genome</a></li>
+<li class="chapter" data-level="5.5" data-path="biology.html"><a href="biology.html#personal-information"><i class="fa fa-check"></i><b>5.5</b> Personal Information</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="io.html"><a href="io.html"><i class="fa fa-check"></i><b>6</b> Data I/O</a><ul>
+<li class="chapter" data-level="6.1" data-path="io.html"><a href="io.html#reading-data-files"><i class="fa fa-check"></i><b>6.1</b> Reading Data Files</a></li>
+<li class="chapter" data-level="6.2" data-path="io.html"><a href="io.html#pickles"><i class="fa fa-check"></i><b>6.2</b> Pickles</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="pandas.html"><a href="pandas.html"><i class="fa fa-check"></i><b>7</b> Pandas</a><ul>
+<li class="chapter" data-level="7.1" data-path="pandas.html"><a href="pandas.html#file-io"><i class="fa fa-check"></i><b>7.1</b> File I/O</a></li>
+<li class="chapter" data-level="7.2" data-path="pandas.html"><a href="pandas.html#data-structure-creation"><i class="fa fa-check"></i><b>7.2</b> Data Structure Creation</a></li>
+<li class="chapter" data-level="7.3" data-path="pandas.html"><a href="pandas.html#selection"><i class="fa fa-check"></i><b>7.3</b> Selection</a></li>
+<li class="chapter" data-level="7.4" data-path="pandas.html"><a href="pandas.html#splitting"><i class="fa fa-check"></i><b>7.4</b> Splitting</a></li>
+<li class="chapter" data-level="7.5" data-path="pandas.html"><a href="pandas.html#relabeling"><i class="fa fa-check"></i><b>7.5</b> Relabeling</a></li>
+<li class="chapter" data-level="7.6" data-path="pandas.html"><a href="pandas.html#sorting-and-arranging"><i class="fa fa-check"></i><b>7.6</b> Sorting and Arranging</a></li>
+<li class="chapter" data-level="7.7" data-path="pandas.html"><a href="pandas.html#editing-data"><i class="fa fa-check"></i><b>7.7</b> Editing Data</a><ul>
+<li class="chapter" data-level="7.7.1" data-path="pandas.html"><a href="pandas.html#replace-values"><i class="fa fa-check"></i><b>7.7.1</b> Replace values</a></li>
+</ul></li>
+<li class="chapter" data-level="7.8" data-path="pandas.html"><a href="pandas.html#combining-data-structures"><i class="fa fa-check"></i><b>7.8</b> Combining Data Structures</a></li>
+<li class="chapter" data-level="7.9" data-path="pandas.html"><a href="pandas.html#summarizing"><i class="fa fa-check"></i><b>7.9</b> Summarizing</a></li>
+<li class="chapter" data-level="7.10" data-path="pandas.html"><a href="pandas.html#arithmetic-and-rowcolumn-wise-analysis"><i class="fa fa-check"></i><b>7.10</b> Arithmetic and Row/Column-wise Analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="git.html"><a href="git.html"><i class="fa fa-check"></i><b>8</b> Git</a><ul>
+<li class="chapter" data-level="8.1" data-path="git.html"><a href="git.html#setup"><i class="fa fa-check"></i><b>8.1</b> Setup</a><ul>
+<li class="chapter" data-level="8.1.1" data-path="git.html"><a href="git.html#git-setup"><i class="fa fa-check"></i><b>8.1.1</b> Git Setup</a></li>
+<li class="chapter" data-level="8.1.2" data-path="git.html"><a href="git.html#repository-initiation"><i class="fa fa-check"></i><b>8.1.2</b> Repository Initiation</a></li>
+<li class="chapter" data-level="8.1.3" data-path="git.html"><a href="git.html#mirror-on-online-repository"><i class="fa fa-check"></i><b>8.1.3</b> Mirror on Online Repository</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="git.html"><a href="git.html#manipulating-commits"><i class="fa fa-check"></i><b>8.2</b> Manipulating Commits</a><ul>
+<li class="chapter" data-level="8.2.1" data-path="git.html"><a href="git.html#repository-status"><i class="fa fa-check"></i><b>8.2.1</b> Repository Status</a></li>
+<li class="chapter" data-level="8.2.2" data-path="git.html"><a href="git.html#file-checkout"><i class="fa fa-check"></i><b>8.2.2</b> File Checkout</a></li>
+<li class="chapter" data-level="8.2.3" data-path="git.html"><a href="git.html#resetting-a-repository"><i class="fa fa-check"></i><b>8.2.3</b> Resetting a Repository</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="vim.html"><a href="vim.html"><i class="fa fa-check"></i><b>9</b> VIM</a><ul>
+<li class="chapter" data-level="9.1" data-path="vim.html"><a href="vim.html#formatting"><i class="fa fa-check"></i><b>9.1</b> Formatting</a></li>
+<li class="chapter" data-level="9.2" data-path="vim.html"><a href="vim.html#spellcheck"><i class="fa fa-check"></i><b>9.2</b> Spellcheck</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="resources.html"><a href="resources.html"><i class="fa fa-check"></i><b>10</b> Bioinformatics Resources</a><ul>
+<li class="chapter" data-level="10.1" data-path="resources.html"><a href="resources.html#cancer-datasets"><i class="fa fa-check"></i><b>10.1</b> Cancer Datasets</a></li>
+<li class="chapter" data-level="10.2" data-path="resources.html"><a href="resources.html#alzheimers"><i class="fa fa-check"></i><b>10.2</b> Alzheimer’s</a></li>
+<li class="chapter" data-level="10.3" data-path="resources.html"><a href="resources.html#genome-resources"><i class="fa fa-check"></i><b>10.3</b> Genome Resources</a></li>
+<li class="chapter" data-level="10.4" data-path="resources.html"><a href="resources.html#genomic-datasets"><i class="fa fa-check"></i><b>10.4</b> Genomic Datasets</a></li>
+<li class="chapter" data-level="10.5" data-path="resources.html"><a href="resources.html#computing-tools"><i class="fa fa-check"></i><b>10.5</b> Computing Tools</a></li>
+<li class="chapter" data-level="10.6" data-path="resources.html"><a href="resources.html#microbiome-datasets"><i class="fa fa-check"></i><b>10.6</b> Microbiome Datasets</a></li>
+<li class="chapter" data-level="10.7" data-path="resources.html"><a href="resources.html#eqtlrnaseq-and-other-tools"><i class="fa fa-check"></i><b>10.7</b> eQTL/RNASeq and other Tools</a></li>
+<li class="chapter" data-level="10.8" data-path="resources.html"><a href="resources.html#other-data-resources"><i class="fa fa-check"></i><b>10.8</b> Other Data Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="golang.html"><a href="golang.html"><i class="fa fa-check"></i><b>11</b> Golang</a><ul>
+<li class="chapter" data-level="11.1" data-path="golang.html"><a href="golang.html#installation"><i class="fa fa-check"></i><b>11.1</b> Installation</a></li>
+<li class="chapter" data-level="11.2" data-path="golang.html"><a href="golang.html#updating"><i class="fa fa-check"></i><b>11.2</b> Updating</a></li>
+<li class="chapter" data-level="11.3" data-path="golang.html"><a href="golang.html#sample-program"><i class="fa fa-check"></i><b>11.3</b> Sample Program</a></li>
+<li class="chapter" data-level="11.4" data-path="golang.html"><a href="golang.html#type-conversion"><i class="fa fa-check"></i><b>11.4</b> Type conversion</a></li>
+<li class="chapter" data-level="11.5" data-path="golang.html"><a href="golang.html#strings"><i class="fa fa-check"></i><b>11.5</b> Strings</a></li>
+<li class="chapter" data-level="11.6" data-path="golang.html"><a href="golang.html#boolean-functions"><i class="fa fa-check"></i><b>11.6</b> Boolean Functions</a></li>
+<li class="chapter" data-level="11.7" data-path="golang.html"><a href="golang.html#variables"><i class="fa fa-check"></i><b>11.7</b> Variables</a></li>
+<li class="chapter" data-level="11.8" data-path="golang.html"><a href="golang.html#input"><i class="fa fa-check"></i><b>11.8</b> Input</a></li>
+<li class="chapter" data-level="11.9" data-path="golang.html"><a href="golang.html#control-structures"><i class="fa fa-check"></i><b>11.9</b> Control Structures</a></li>
+<li class="chapter" data-level="11.10" data-path="golang.html"><a href="golang.html#data-structures"><i class="fa fa-check"></i><b>11.10</b> Data Structures</a></li>
+<li class="chapter" data-level="11.11" data-path="golang.html"><a href="golang.html#functions"><i class="fa fa-check"></i><b>11.11</b> Functions</a></li>
+<li class="chapter" data-level="11.12" data-path="golang.html"><a href="golang.html#while-loops"><i class="fa fa-check"></i><b>11.12</b> While loops</a></li>
+<li class="chapter" data-level="11.13" data-path="golang.html"><a href="golang.html#timing-a-function"><i class="fa fa-check"></i><b>11.13</b> Timing a function</a></li>
+<li class="chapter" data-level="11.14" data-path="golang.html"><a href="golang.html#pointers"><i class="fa fa-check"></i><b>11.14</b> Pointers</a></li>
+<li class="chapter" data-level="11.15" data-path="golang.html"><a href="golang.html#structures"><i class="fa fa-check"></i><b>11.15</b> Structures</a></li>
+<li class="chapter" data-level="11.16" data-path="golang.html"><a href="golang.html#methods"><i class="fa fa-check"></i><b>11.16</b> Methods</a></li>
+<li class="chapter" data-level="11.17" data-path="golang.html"><a href="golang.html#packaging"><i class="fa fa-check"></i><b>11.17</b> Packaging</a></li>
+<li class="chapter" data-level="11.18" data-path="golang.html"><a href="golang.html#readwrite-files"><i class="fa fa-check"></i><b>11.18</b> Read/Write Files</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Science With Python</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="visualization" class="section level1">
+<h1><span class="header-section-number">Chapter 4</span> Visualization</h1>
+<div id="color" class="section level2">
+<h2><span class="header-section-number">4.1</span> Color</h2>
+<div id="colorschemes" class="section level3">
+<h3><span class="header-section-number">4.1.1</span> Colorschemes</h3>
+<p>Seaborn Themes</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python">Pastel: {<span class="st">&#39;Blue&#39;</span>:<span class="st">&#39;#a3c6ff&#39;</span>, <span class="st">&#39;Orange&#39;</span>:<span class="st">&#39;#f7ab60&#39;</span>, <span class="st">&#39;Green&#39;</span>:<span class="st">&#39;#60f7a9&#39;</span>, <span class="st">&#39;Red&#39;</span>:<span class="st">&#39;#fc9d94&#39;</span>, <span class="st">&#39;Purple&#39;</span>:<span class="st">&#39;#bea3ff&#39;</span>, <span class="st">&#39;Brown&#39;</span>:<span class="st">&#39;#d1b485&#39;</span>, <span class="st">&#39;Pink&#39;</span>:<span class="st">&#39;#f7afdf&#39;</span>, <span class="st">&#39;Gray&#39;</span>:<span class="st">&#39;#c4c4c4&#39;</span>, <span class="st">&#39;Yellow&#39;</span>:<span class="st">&#39;#ffffaa&#39;</span>, <span class="st">&#39;LBlue&#39;</span>:<span class="st">&#39;#baf6ff&#39;</span>}</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python">Deep: {<span class="st">&#39;Green&#39;</span>:<span class="st">&#39;#5baf68&#39;</span>}</code></pre></div>
+</div>
+<div id="controlling-coloration" class="section level3">
+<h3><span class="header-section-number">4.1.2</span> Controlling Coloration</h3>
+<p>Not all plots automatically plot with a white background, and when using something dark like jupyterlab or a presentation this can be frustrating. The background color can be set in pyplot like this.</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python">fig.patch.set_facecolor(<span class="st">&#39;xkcd:mint green&#39;</span>)</code></pre></div>
+<p>When plotting, samples will not always be colored with the same color, especially when different subsets of samples are included in different plots. Here is a manual workaround to specify the coloration of displayed data. This is a bit cumbersome so there might be a more elegant way of achieving the same outcome.</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="co"># here is an example where sample order is controlled from a pandas DataFrame</span>
+sample_order <span class="op">=</span> all_vars.sort_values([<span class="st">&#39;ID&#39;</span>]).drop_duplicates([<span class="st">&#39;Sample&#39;</span>]).Sample
+
+<span class="co"># the color order is specified here</span>
+<span class="co"># colors should be in the same order as the above sample_order Series, excluding samples with no data</span>
+colors <span class="op">=</span> [pastel[<span class="st">&#39;Brown&#39;</span>], pastel[<span class="st">&#39;Blue&#39;</span>],
+          pastel[<span class="st">&#39;Orange&#39;</span>], pastel[<span class="st">&#39;Purple&#39;</span>],
+          pastel[<span class="st">&#39;Green&#39;</span>], pastel[<span class="st">&#39;Red&#39;</span>],
+          ]
+
+plt.figure()
+<span class="co"># this is an example of plotting that uses the sample_order and palette to control coloration order</span>
+sns.catplot(x<span class="op">=</span><span class="st">&#39;Sample&#39;</span>, y<span class="op">=</span><span class="st">&#39;VAF&#39;</span>, hue<span class="op">=</span><span class="st">&#39;Gene&#39;</span>, jitter<span class="op">=</span><span class="va">True</span>,
+            data<span class="op">=</span>oncogenic[oncogenic.Location <span class="op">==</span> <span class="st">&#39;Peripheral&#39;</span>],
+            legend<span class="op">=</span><span class="va">False</span>, order<span class="op">=</span>sample_order, palette<span class="op">=</span>sns.color_palette(colors))
+
+<span class="co"># a colorscheme can be specified if desired</span>
+pastel <span class="op">=</span> {<span class="st">&#39;Blue&#39;</span>:<span class="st">&#39;#a3c6ff&#39;</span>, <span class="st">&#39;Orange&#39;</span>:<span class="st">&#39;#f7ab60&#39;</span>,
+          <span class="st">&#39;Green&#39;</span>:<span class="st">&#39;#60f7a9&#39;</span>, <span class="st">&#39;Red&#39;</span>:<span class="st">&#39;#fc9d94&#39;</span>,
+          <span class="st">&#39;Purple&#39;</span>:<span class="st">&#39;#bea3ff&#39;</span>, <span class="st">&#39;Brown&#39;</span>:<span class="st">&#39;#d1b485&#39;</span>,
+          <span class="st">&#39;Pink&#39;</span>:<span class="st">&#39;#f7afdf&#39;</span>, <span class="st">&#39;Gray&#39;</span>:<span class="st">&#39;#c4c4c4&#39;</span>,
+          <span class="st">&#39;Yellow&#39;</span>:<span class="st">&#39;#ffffaa&#39;</span>, <span class="st">&#39;LBlue&#39;</span>:<span class="st">&#39;#baf6ff&#39;</span>}
+
+<span class="co"># this controls the coloration in the legend</span>
+<span class="im">import</span> matplotlib.patches <span class="im">as</span> mpatches
+egfr <span class="op">=</span> mpatches.Patch(color<span class="op">=</span>pastel[<span class="st">&#39;Blue&#39;</span>], label<span class="op">=</span><span class="st">&#39;EGFR&#39;</span>)
+pik3ca <span class="op">=</span> mpatches.Patch(color<span class="op">=</span>pastel[<span class="st">&#39;Orange&#39;</span>], label<span class="op">=</span><span class="st">&#39;PIK3CA&#39;</span>)
+myc <span class="op">=</span> mpatches.Patch(color<span class="op">=</span>pastel[<span class="st">&#39;Green&#39;</span>], label<span class="op">=</span><span class="st">&#39;MYC&#39;</span>)
+
+plt.legend(handles<span class="op">=</span>[egfr,pik3ca,myc],
+           loc<span class="op">=</span><span class="st">&#39;upper right&#39;</span>, bbox_to_anchor<span class="op">=</span>(<span class="fl">1.5</span>, <span class="dv">1</span>),
+           ncol<span class="op">=</span><span class="dv">1</span>) <span class="co"># no legend overlap</span></code></pre></div>
+</div>
+</div>
+<div id="matplotlib" class="section level2">
+<h2><span class="header-section-number">4.2</span> Matplotlib</h2>
+<p>Plotting a heatmap.</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt
+<span class="im">import</span> numpy <span class="im">as</span> np
+a <span class="op">=</span> np.random.random((<span class="dv">16</span>, <span class="dv">16</span>))
+plt.imshow(a, cmap<span class="op">=</span><span class="st">&#39;RdBu&#39;&#39;, interpolation=&#39;</span>nearest<span class="st">&#39;)</span>
+<span class="st">plt.show()</span></code></pre></div>
+<p>Possible heatmap colors are:</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python">Accent, Accent_r, Blues, Blues_r, BrBG, BrBG_r, BuGn, BuGn_r, BuPu, BuPu_r, CMRmap, CMRmap_r, Dark2, Dark2_r, GnBu, GnBu_r, Greens, Greens_r, Greys, Greys_r, OrRd, OrRd_r, Oranges, Oranges_r, PRGn, PRGn_r, Paired, Paired_r, Pastel1, Pastel1_r, Pastel2, Pastel2_r, PiYG, PiYG_r, PuBu, PuBuGn, PuBuGn_r, PuBu_r, PuOr, PuOr_r, PuRd, PuRd_r, Purples, Purples_r, RdBu, RdBu_r, RdGy, RdGy_r, RdPu, RdPu_r, RdYlBu, RdYlBu_r, RdYlGn, RdYlGn_r, Reds, Reds_r, Set1,
+Set1_r, Set2, Set2_r, Set3, Set3_r, Spectral, Spectral_r, Wistia, Wistia_r, YlGn, YlGnBu, YlGnBu_r, YlGn_r, YlOrBr, YlOrBr_r, YlOrRd, YlOrRd_r, afmhot, afmhot_r, autumn, autumn_r, binary, binary_r, bone, bone_r, brg, brg_r, bwr, bwr_r, cividis, cividis_r, cool, cool_r, coolwarm, coolwarm_r, copper, copper_r, cubehelix, cubehelix_r, flag, flag_r, gist_earth, gist_earth_r, gist_gray, gist_gray_r, gist_heat, gist_heat_r, gist_ncar, gist_ncar_r, gist_rainbow, gist_rainbow_r,
+gist_stern, gist_stern_r, gist_yarg, gist_yarg_r, gnuplot, gnuplot2, gnuplot2_r, gnuplot_r, gray, gray_r, hot, hot_r, hsv, hsv_r, icefire, icefire_r, inferno, inferno_r, jet, jet_r, magma, magma_r, mako, mako_r, nipy_spectral, nipy_spectral_r, ocean, ocean_r, pink, pink_r, plasma, plasma_r, prism, prism_r, rainbow, rainbow_r, rocket, rocket_r, seismic, seismic_r, spring, spring_r, summer, summer_r, tab10, tab10_r, tab20, tab20_r, tab20b, tab20b_r, tab20c, tab20c_r, terrain, terrain_r,
+twilight, twilight_r, twilight_shifted, twilight_shifted_r, viridis, viridis_r, vlag, vlag_r, winter, winter_r</code></pre></div>
+<p>A simple venn diagram.</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="im">from</span> matplotlib_venn <span class="im">import</span> venn2
+venn2(subsets <span class="op">=</span> (<span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">1</span>))</code></pre></div>
+<p>A more complicated venn diagram.</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="im">from</span> matplotlib <span class="im">import</span> pyplot <span class="im">as</span> plt
+<span class="im">import</span> numpy <span class="im">as</span> np
+<span class="im">from</span> matplotlib_venn <span class="im">import</span> venn3, venn3_circles
+plt.figure(figsize<span class="op">=</span>(<span class="dv">4</span>,<span class="dv">4</span>))
+v <span class="op">=</span> venn3(subsets<span class="op">=</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>), set_labels <span class="op">=</span> (<span class="st">&#39;A&#39;</span>, <span class="st">&#39;B&#39;</span>, <span class="st">&#39;C&#39;</span>))
+v.get_patch_by_id(<span class="st">&#39;100&#39;</span>).set_alpha(<span class="fl">1.0</span>)
+v.get_patch_by_id(<span class="st">&#39;100&#39;</span>).set_color(<span class="st">&#39;white&#39;</span>)
+v.get_label_by_id(<span class="st">&#39;100&#39;</span>).set_text(<span class="st">&#39;Unknown&#39;</span>)
+v.get_label_by_id(<span class="st">&#39;A&#39;</span>).set_text(<span class="st">&#39;Set &quot;A&quot;&#39;</span>)
+c <span class="op">=</span> venn3_circles(subsets<span class="op">=</span>(<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>), linestyle<span class="op">=</span><span class="st">&#39;dotted&#39;</span>)
+c[<span class="dv">0</span>].set_lw(<span class="fl">1.0</span>)
+c[<span class="dv">0</span>].set_ls(<span class="st">&#39;dotted&#39;</span>)
+plt.title(<span class="st">&quot;Sample Venn diagram&quot;</span>)
+plt.annotate(<span class="st">&#39;Unknown set&#39;</span>, xy<span class="op">=</span>v.get_label_by_id(<span class="st">&#39;100&#39;</span>).get_position() <span class="op">-</span> np.array([<span class="dv">0</span>, <span class="fl">0.05</span>]), xytext<span class="op">=</span>(<span class="op">-</span><span class="dv">70</span>,<span class="op">-</span><span class="dv">70</span>),
+             ha<span class="op">=</span><span class="st">&#39;center&#39;</span>, textcoords<span class="op">=</span><span class="st">&#39;offset points&#39;</span>, bbox<span class="op">=</span><span class="bu">dict</span>(boxstyle<span class="op">=</span><span class="st">&#39;round,pad=0.5&#39;</span>, fc<span class="op">=</span><span class="st">&#39;gray&#39;</span>, alpha<span class="op">=</span><span class="fl">0.1</span>),
+                          arrowprops<span class="op">=</span><span class="bu">dict</span>(arrowstyle<span class="op">=</span><span class="st">&#39;-&gt;&#39;</span>, connectionstyle<span class="op">=</span><span class="st">&#39;arc3,rad=0.5&#39;</span>,color<span class="op">=</span><span class="st">&#39;gray&#39;</span>))
+                          plt.show()</code></pre></div>
+<p>An upset plot is a nice alternative to a traditional venn diagram. The project is hosted <a href="https://pypi.org/project/UpSetPlot/">here</a>, and <a href="https://buildmedia.readthedocs.org/media/pdf/upsetplot/latest/upsetplot.pdf">this</a> is the documentation.</p>
+<p>First install the library.</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">pip</span> install upsetplot</code></pre></div>
+<p>Here is the code to create the plot.</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="im">import</span> numpy <span class="im">as</span> np
+
+arrays <span class="op">=</span> [[<span class="va">False</span>,<span class="va">False</span>,<span class="va">False</span>,<span class="va">False</span>,<span class="va">True</span>,<span class="va">True</span>,<span class="va">True</span>,<span class="va">True</span>],
+          [<span class="va">False</span>,<span class="va">False</span>,<span class="va">True</span>,<span class="va">True</span>,<span class="va">False</span>,<span class="va">False</span>,<span class="va">True</span>,<span class="va">True</span>],
+          [<span class="va">False</span>,<span class="va">True</span>,<span class="va">False</span>,<span class="va">True</span>,<span class="va">False</span>,<span class="va">True</span>,<span class="va">False</span>,<span class="va">True</span>]]
+tuples <span class="op">=</span> <span class="bu">list</span>(<span class="bu">zip</span>(<span class="op">*</span>arrays))
+
+<span class="kw">def</span> o(one<span class="op">=</span><span class="va">False</span>, two<span class="op">=</span><span class="va">False</span>, three<span class="op">=</span><span class="va">False</span>):
+    <span class="cf">if</span> three:
+        temp <span class="op">=</span> pd.merge(indels[(indels.Individual<span class="op">==</span>one)], indels[(indels.Individual<span class="op">==</span>two)], how<span class="op">=</span><span class="st">&#39;inner&#39;</span>, on<span class="op">=</span>[<span class="st">&#39;Loc&#39;</span>, <span class="st">&#39;Var&#39;</span>])
+        <span class="cf">return</span> <span class="bu">len</span>(pd.merge(temp, indels[(indels.Individual<span class="op">==</span>three)], how<span class="op">=</span><span class="st">&#39;inner&#39;</span>, on<span class="op">=</span>[<span class="st">&#39;Loc&#39;</span>, <span class="st">&#39;Var&#39;</span>]))
+    <span class="cf">elif</span> two:
+        <span class="cf">return</span> <span class="bu">len</span>(pd.merge(indels[(indels.Individual<span class="op">==</span>one)], indels[(indels.Individual<span class="op">==</span>two)], how<span class="op">=</span><span class="st">&#39;inner&#39;</span>, on<span class="op">=</span>[<span class="st">&#39;Loc&#39;</span>, <span class="st">&#39;Var&#39;</span>]))
+    <span class="cf">elif</span> one:
+        <span class="cf">return</span> <span class="bu">len</span>(indels[(indels.Individual<span class="op">==</span>one)])
+    <span class="cf">else</span>:
+        <span class="cf">return</span> <span class="dv">0</span>
+
+index <span class="op">=</span> pd.MultiIndex.from_tuples(tuples, names<span class="op">=</span>[<span class="st">&#39;Ind 1&#39;</span>, <span class="st">&#39;Ind 2&#39;</span>, <span class="st">&#39;Ind 3&#39;</span>])
+s <span class="op">=</span> pd.Series([o(),
+               o(<span class="dv">3</span>),
+               o(<span class="dv">2</span>),
+               o(<span class="dv">2</span>,<span class="dv">3</span>),
+               o(<span class="dv">1</span>),
+               o(<span class="dv">1</span>,<span class="dv">3</span>),
+               o(<span class="dv">1</span>,<span class="dv">2</span>),
+               o(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>)], index<span class="op">=</span>index)
+
+<span class="im">from</span> upsetplot <span class="im">import</span> plot <span class="im">as</span> up
+up(s)
+plt.savefig(<span class="st">&quot;../images/indels.svg&quot;</span>, <span class="bu">format</span><span class="op">=</span><span class="st">&quot;svg&quot;</span>, bbox_inches<span class="op">=</span><span class="st">&quot;tight&quot;</span>)</code></pre></div>
+<p>Log scales seem to always be a challenge. Here is at least one solution to change ticks to log manually.</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python">y_major_ticks <span class="op">=</span> [np.log(<span class="dv">100</span>),np.log(<span class="dv">200</span>),np.log(<span class="dv">300</span>),np.log(<span class="dv">400</span>),np.log(<span class="dv">500</span>),np.log(<span class="dv">600</span>),np.log(<span class="dv">700</span>),np.log(<span class="dv">800</span>),np.log(<span class="dv">900</span>),<span class="op">\</span>
+                 np.log(<span class="dv">1000</span>),np.log(<span class="dv">2000</span>),np.log(<span class="dv">3000</span>),np.log(<span class="dv">4000</span>),np.log(<span class="dv">5000</span>),np.log(<span class="dv">6000</span>),np.log(<span class="dv">7000</span>),np.log(<span class="dv">8000</span>),np.log(<span class="dv">9000</span>),<span class="op">\</span>
+                 np.log(<span class="dv">10000</span>),np.log(<span class="dv">20000</span>),np.log(<span class="dv">30000</span>),np.log(<span class="dv">40000</span>),np.log(<span class="dv">50000</span>),np.log(<span class="dv">60000</span>),np.log(<span class="dv">70000</span>),np.log(<span class="dv">80000</span>),np.log(<span class="dv">90000</span>),<span class="op">\</span>
+                 np.log(<span class="dv">100000</span>),np.log(<span class="dv">200000</span>),np.log(<span class="dv">300000</span>),np.log(<span class="dv">400000</span>),np.log(<span class="dv">500000</span>),np.log(<span class="dv">600000</span>),np.log(<span class="dv">700000</span>),np.log(<span class="dv">800000</span>),np.log(<span class="dv">900000</span>),<span class="op">\</span>
+                 np.log(<span class="dv">1000000</span>),np.log(<span class="dv">2000000</span>),np.log(<span class="dv">3000000</span>),np.log(<span class="dv">4000000</span>),np.log(<span class="dv">5000000</span>),np.log(<span class="dv">6000000</span>),np.log(<span class="dv">7000000</span>),np.log(<span class="dv">8000000</span>),np.log(<span class="dv">9000000</span>),<span class="op">\</span>
+                 np.log(<span class="dv">10000000</span>)]
+
+y_major_tick_labels <span class="op">=</span> [<span class="st">&quot;100&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>, <span class="st">&quot;1000&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>, <span class="st">&quot;10,000&quot;</span>,<span class="op">\</span>
+                       <span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;100,000&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>, <span class="st">&quot;1,000,000&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>,<span class="st">&quot;&quot;</span>, <span class="st">&quot;10,000,000&quot;</span> ]
+ax1.set_yticks(y_major_ticks)
+ax1.set_yticklabels(y_major_tick_labels, fontsize <span class="op">=</span> axisfont)
+ax1.yaxis.set_tick_params(width<span class="op">=</span>scale, color <span class="op">=</span> grey3, length <span class="op">=</span> <span class="dv">6</span>)</code></pre></div>
+</div>
+<div id="seaborn" class="section level2">
+<h2><span class="header-section-number">4.3</span> Seaborn</h2>
+<p>Here is a general bar plot that includes some commonly used parameters.</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="co"># fits my 22 inch monitor</span>
+plt.figure(figsize<span class="op">=</span>(<span class="fl">19.17</span>,<span class="fl">11.98</span>))
+<span class="co"># order controls the display order of the samples</span>
+sns.catplot(x<span class="op">=</span><span class="st">&quot;Sample&quot;</span>, y<span class="op">=</span><span class="st">&quot;Somatic&quot;</span>, kind<span class="op">=</span><span class="st">&quot;bar&quot;</span>, data<span class="op">=</span>var_counts, order<span class="op">=</span>labels)<span class="op">;</span>
+<span class="co"># keeps x-axis labels, but eliminates the tick mark</span>
+plt.tick_params(labelbottom<span class="op">=</span><span class="va">True</span>, bottom<span class="op">=</span><span class="va">False</span>)
+<span class="co"># trim off the x-axis</span>
+sns.despine(offset<span class="op">=</span><span class="dv">10</span>, trim<span class="op">=</span><span class="va">True</span>, bottom<span class="op">=</span><span class="va">True</span>)
+<span class="co"># labels</span>
+plt.title(<span class="st">&#39;&#39;</span>)
+plt.ylabel(<span class="st">&#39;&#39;</span>, fontsize<span class="op">=</span><span class="dv">8</span>)
+plt.xlabel(<span class="st">&#39;&#39;</span>, fontsize<span class="op">=</span><span class="dv">8</span>)
+<span class="co"># manual control of xlabels</span>
+labels <span class="op">=</span> [<span class="st">&#39;Indiv_1-a&#39;</span>,<span class="st">&#39;Indiv_2&#39;</span>,<span class="st">&#39;Indiv_3&#39;</span>,<span class="st">&#39;Indiv_1-b&#39;</span>]
+<span class="co"># control xtick order</span>
+plt.xticks(<span class="bu">range</span>(<span class="bu">len</span>(labels)), labels, rotation<span class="op">=</span><span class="dv">45</span>)
+<span class="co"># control the number of x-ticks</span>
+plt.locator_params(axis<span class="op">=</span><span class="st">&#39;x&#39;</span>, nbins<span class="op">=</span><span class="dv">10</span>)
+<span class="co"># legend positioning</span>
+plt.legend(loc<span class="op">=</span><span class="st">&#39;upper right&#39;</span>)
+<span class="co"># log scale</span>
+plt.gca().set_yscale(<span class="st">&#39;log&#39;</span>)
+<span class="co"># this is better if neg values are needed</span>
+plt.gca().set_yscale(<span class="st">&#39;symlog&#39;</span>)
+<span class="co"># fit plot to display</span>
+plt.tight_layout()
+plt.show()
+<span class="co"># save figure with tight_layout</span>
+plt.savefig(<span class="st">&quot;test.svg&quot;</span>, <span class="bu">format</span><span class="op">=</span><span class="st">&quot;svg&quot;</span>, bbox_inches<span class="op">=</span><span class="st">&quot;tight&quot;</span>, dpi<span class="op">=</span><span class="dv">1000</span>)</code></pre></div>
+<p>Signifance information can be added by including p-values and label bars using the following code.</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python">x1, x2 <span class="op">=</span> <span class="dv">0</span>, <span class="dv">1</span> <span class="co"># columns to annotate on the plot</span>
+y2, y1 <span class="op">=</span> <span class="dv">20</span>, <span class="dv">15</span> <span class="co"># placement of the line and how for down the vertical legs go</span>
+plt.plot([x1,x1, x2, x2], [y1, y2, y2, y1], linewidth<span class="op">=</span><span class="dv">1</span>, color<span class="op">=</span><span class="st">&#39;k&#39;</span>) <span class="co"># stats line</span>
+plt.text((x1<span class="op">+</span>x2)<span class="op">*</span>.<span class="dv">5</span>, y2<span class="op">+</span><span class="dv">2</span>, <span class="st">&quot;p=0.09&quot;</span>, ha<span class="op">=</span><span class="st">&#39;center&#39;</span>, va<span class="op">=</span><span class="st">&#39;bottom&#39;</span>, fontsize<span class="op">=</span><span class="dv">8</span>) <span class="co"># p-value or sig</span></code></pre></div>
+</div>
+<div id="statistics" class="section level2">
+<h2><span class="header-section-number">4.4</span> Statistics</h2>
+<p>This is a two-sided T-test for the null hypothesis that two populations have the same means. It is important to note that it assumes the population variances are the same, so this must be changed if the assumption is incorrect.</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="co"># ttest_ind(a, b, axis=0, equal_var=True, nan_policy=&#39;propagate&#39;)</span>
+<span class="im">from</span> scipy.stats <span class="im">import</span> ttest_ind
+ttest_ind(df[df[<span class="st">&#39;sample&#39;</span>] <span class="op">==</span> <span class="st">&#39;one&#39;</span>][<span class="st">&#39;means&#39;</span>], df[df[<span class="st">&#39;sample&#39;</span>] <span class="op">==</span> <span class="st">&#39;two&#39;</span>][<span class="st">&#39;means&#39;</span>])</code></pre></div>
+</div>
+<div id="various-plot-styles" class="section level2">
+<h2><span class="header-section-number">4.5</span> Various Plot Styles</h2>
+<p>This displays each individual datapoint overlayed on a boxplot</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python">ax <span class="op">=</span> sns.boxplot(x<span class="op">=</span><span class="st">&#39;day&#39;</span>, y<span class="op">=</span><span class="st">&#39;total_bill&#39;</span>, data<span class="op">=</span>tips)
+ax <span class="op">=</span> sns.swarmplot(x<span class="op">=</span><span class="st">&#39;day&#39;</span>, y<span class="op">=</span><span class="st">&#39;total_bill&#39;</span>, data<span class="op">=</span>tips, color<span class="op">=</span><span class="st">&#39;.25&#39;</span>)</code></pre></div>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="jupyter.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="biology.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "night",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/03-visualization.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

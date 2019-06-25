@@ -1,0 +1,226 @@
+\documentclass[]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Data Science With Python},
+            pdfauthor={L A Liggett},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Data Science With Python}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{L A Liggett}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{2019-06-24}
+
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\chapter{Overview}\label{overview}
+
+These are some notes that may be helpful for computational biology
+analysis that focuses on Python use.
+
+\chapter{Morphy}\label{morphy}
+
+\begin{quote}
+Available themes are: theme: blue, blue2, blue3, canvas, wood, wood2,
+wood3, maple, green, marble, brown, leather, grey, metal, olive, purple
+bg: light, dark
+\end{quote}
+
+\begin{quote}
+Add this to the end of the html link to style the board and start at
+initial position ?bg=dark\&theme=metal\#0
+\end{quote}
+
+\section{Evans Gambit}\label{evans-gambit}
+
+\subsection{Morphy vs A Morphy 1849}\label{morphy-vs-a-morphy-1849}
+
+\subsection{Morphy vs A Morphy 1849 2}\label{morphy-vs-a-morphy-1849-2}
+
+\subsection{Morphy vs A Morphy 1849 3}\label{morphy-vs-a-morphy-1849-3}
+
+\subsection{Morphy vs E Morphy 1850}\label{morphy-vs-e-morphy-1850}
+
+\subsection{Morphy vs A D Ayers 1855}\label{morphy-vs-a-d-ayers-1855}
+
+\subsection{Morphy vs J Schulten 1857}\label{morphy-vs-j-schulten-1857}
+
+\subsection{Morphy vs Kennicott 1857}\label{morphy-vs-kennicott-1857}
+
+\subsection{Morphy vs Meek 1857}\label{morphy-vs-meek-1857}
+
+\subsection{Morphy vs Lichtenhein
+1857}\label{morphy-vs-lichtenhein-1857}
+
+\subsection{Morphy vs Hammond 1857}\label{morphy-vs-hammond-1857}
+
+\subsection{Morphy vs Stanley 1857}\label{morphy-vs-stanley-1857}
+
+\subsection{Morphy vs J Schulten
+1857}\label{morphy-vs-j-schulten-1857-1}
+
+\subsection{Morphy vs J Schulten 1857
+2}\label{morphy-vs-j-schulten-1857-2}
+
+\subsection{Morphy vs J Schulten 1857
+3}\label{morphy-vs-j-schulten-1857-3}
+
+\subsection{Morphy vs S Boden 1858}\label{morphy-vs-s-boden-1858}
+
+\subsection{Morphy vs F Deacon 1858}\label{morphy-vs-f-deacon-1858}
+
+\subsection{Morphy vs Bird 1858}\label{morphy-vs-bird-1858}
+
+\subsection{Morphy vs NN 1858}\label{morphy-vs-nn-1858}
+
+\subsection{Morphy vs de Riviere 1858}\label{morphy-vs-de-riviere-1858}
+
+\subsection{Morphy vs NN 1858 2}\label{morphy-vs-nn-1858-2}
+
+\subsection{Morphy vs F H Lewis 1858}\label{morphy-vs-f-h-lewis-1858}
+
+\subsection{Morphy vs T Hampton 1858}\label{morphy-vs-t-hampton-1858}
+
+\subsection{Morphy vs J Laroche 1858}\label{morphy-vs-j-laroche-1858}
+
+\subsection{Morphy vs NN 1858 3}\label{morphy-vs-nn-1858-3}
+
+\subsection{Morphy vs NN 1858 4}\label{morphy-vs-nn-1858-4}
+
+\subsection{Morphy vs NN 1858 5}\label{morphy-vs-nn-1858-5}
+
+\subsection{Morphy vs NN 1858 6}\label{morphy-vs-nn-1858-6}
+
+\subsection{Morphy vs Kipping 1858}\label{morphy-vs-kipping-1858}
+
+\subsection{Morphy vs G Salmon 1858}\label{morphy-vs-g-salmon-1858}
+
+\subsection{Morphy vs Anderssen 1858}\label{morphy-vs-anderssen-1858}
+
+\subsection{Morphy vs Loewenthal 1859}\label{morphy-vs-loewenthal-1859}
+
+\subsection{Morphy vs P Journoud 1859}\label{morphy-vs-p-journoud-1859}
+
+\subsection{Morphy vs de Riviere 1859}\label{morphy-vs-de-riviere-1859}
+
+\subsection{Morphy vs NN 1859}\label{morphy-vs-nn-1859}
+
+\subsection{Morphy vs de Riviere
+1859}\label{morphy-vs-de-riviere-1859-1}
+
+\subsection{Morphy vs F Deacon 1859}\label{morphy-vs-f-deacon-1859}
+
+\subsection{Morphy vs Loewenthal 1859
+2}\label{morphy-vs-loewenthal-1859-2}
+
+\subsection{Morphy vs Mongredien 1859}\label{morphy-vs-mongredien-1859}
+
+\subsection{Morphy vs F Greenaway
+1859}\label{morphy-vs-f-greenaway-1859}
+
+\subsection{Morphy vs H Kennedy 1859}\label{morphy-vs-h-kennedy-1859}
+
+\subsection{Morphy vs de Riviere 1863}\label{morphy-vs-de-riviere-1863}
+
+\subsection{Morphy vs de Riviere 1863
+2}\label{morphy-vs-de-riviere-1863-2}
+
+\subsection{Morphy vs P Capdevielle
+1864}\label{morphy-vs-p-capdevielle-1864}
+
+\subsection{Morphy vs C Golmayo 1864}\label{morphy-vs-c-golmayo-1864}
+
+\bibliography{book.bib,packages.bib}
+
+
+\end{document}
