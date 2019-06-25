@@ -4,7 +4,7 @@
 
 ### Morphy vs A Morphy 1849
 
-<iframe width=600 height=371 src="https://lichess.org/study/embed/XRBWMn7r/j6RYYmer?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=1800 height=600 src="https://lichess.org/study/embed/XRBWMn7r/j6RYYmer?bg=dark&theme=metal#0" frameborder=0></iframe>
 
 ### Morphy vs A Morphy 1849 2
 
