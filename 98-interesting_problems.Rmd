@@ -1,0 +1,9 @@
+# Interesting Problems{#interesting_problems}
+
+## Evans Gambit 
+
+### Pal Benko Chess Life 1968
+Pal Benko wrote this puzzle and made a bet with Bobby Fischer that he would not be able to solve it within 30 minutes of thinking. Bobby lost the bet, and could not solve the puzzle within the allotted time. The puzzle is white to move and a mate in 3.
+
+<iframe width=780 height=500 src="https://lichess.org/study/embed/YRSVGMRZ/rdlf95Em?bg=dark&theme=metal#0" frameborder=0></iframe>
+

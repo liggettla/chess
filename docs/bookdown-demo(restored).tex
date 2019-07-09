@@ -24,53 +24,13 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
 \hypersetup{unicode=true,
-            pdftitle={Chess Studies},
+            pdftitle={Data Science With Python},
             pdfauthor={L A Liggett},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{natbib}
 \bibliographystyle{apalike}
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
 \usepackage{longtable,booktabs}
 \usepackage{graphicx,grffile}
 \makeatletter
@@ -117,7 +77,7 @@
 
 \setlength{\droptitle}{-2em}
 
-  \title{Chess Studies}
+  \title{Data Science With Python}
     \pretitle{\vspace{\droptitle}\centering\huge}
   \posttitle{\par}
     \author{L A Liggett}
@@ -125,7 +85,7 @@
   \postauthor{\par}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-07-08}
+    \date{2019-06-24}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -145,37 +105,21 @@
 }
 \chapter{Overview}\label{overview}
 
-These are just some chess notes.
+These are some notes that may be helpful for computational biology
+analysis that focuses on Python use.
 
-There are a number of different themes that can be used for embedded
-boards, the options for which are listed below:
+\chapter{Morphy}\label{morphy}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{theme: blue, blue2, blue3, canvas, wood, wood2, wood3, maple, green, marble, brown, leather, grey, metal, olive, purple}
-\end{Highlighting}
-\end{Shaded}
+\begin{quote}
+Available themes are: theme: blue, blue2, blue3, canvas, wood, wood2,
+wood3, maple, green, marble, brown, leather, grey, metal, olive, purple
+bg: light, dark
+\end{quote}
 
-There are also coloration themes:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{bg: light, dark}
-\end{Highlighting}
-\end{Shaded}
-
-Here is an example of what should be added after the html link of a
-study to style the board and start at initial position
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{?bg}\OperatorTok{=}\NormalTok{dark}\OperatorTok{&}\NormalTok{theme}\OperatorTok{=}\NormalTok{metal}\CommentTok{#0}
-\end{Highlighting}
-\end{Shaded}
-
-And here is an example and embedded chess study.
-
-\chapter{Paul Morphy}\label{morphy}
+\begin{quote}
+Add this to the end of the html link to style the board and start at
+initial position ?bg=dark\&theme=metal\#0
+\end{quote}
 
 \section{Evans Gambit}\label{evans-gambit}
 
@@ -275,17 +219,6 @@ And here is an example and embedded chess study.
 1864}\label{morphy-vs-p-capdevielle-1864}
 
 \subsection{Morphy vs C Golmayo 1864}\label{morphy-vs-c-golmayo-1864}
-
-\chapter{Interesting Problems}\label{interesting_problems}
-
-\section{Evans Gambit}\label{evans-gambit-1}
-
-\subsection{Pal Benko Chess Life 1968}\label{pal-benko-chess-life-1968}
-
-Pal Benko wrote this puzzle and made a bet with Bobby Fischer that he
-would not be able to solve it within 30 minutes of thinking. Bobby lost
-the bet, and could not solve the puzzle within the allotted time. The
-puzzle is white to move and a mate in 3.
 
 \bibliography{book.bib,packages.bib}
 
