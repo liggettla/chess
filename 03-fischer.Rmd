@@ -1,0 +1,14 @@
+# Robert James Fischer {#fischer}
+
+## White
+
+### B90 Sicilian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/cTvjN6m5/QyZ98fXM?bg=dark&theme=metal#0" frameborder=0></iframe>
+
+## Black
+
+### E80 King's Indian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/L4TYwEuo/WYePmJ4j?bg=dark&theme=metal#0" frameborder=0></iframe>
+
+### E63 King's Indian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/SlW210IW/RrXwgv1i?bg=dark&theme=metal#0" frameborder=0></iframe>
