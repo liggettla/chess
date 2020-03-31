@@ -2,13 +2,48 @@
 
 ## White
 
-### B90 Sicilian
+### Sicilian
+
+#### B90 Sicilian
 <iframe width=780 height=500 src="https://lichess.org/study/embed/cTvjN6m5/QyZ98fXM?bg=dark&theme=metal#0" frameborder=0></iframe>
+
+### Ruy Lopez
+Fischer White C69 Ruy Lopez
+#### C92 Ruy Lopez
+<iframe width=780 height=500 src="https://lichess.org/study/embed/1TcDfzkI/etzKecK9#0" frameborder=0></iframe>
+#### C69 Ruy Lopez
+<iframe width=600 height=371 src="https://lichess.org/study/embed/34Xske1A/uNpLD4sP#0" frameborder=0></iframe>
+#### C95 Ruy Lopez
+<iframe width=600 height=371 src="https://lichess.org/study/embed/Q5fzLOUh/GMHEodv4#0" frameborder=0></iframe>
+#### C97 Ruy Lopez
+<iframe width=600 height=371 src="https://lichess.org/study/embed/DvkMZzBV/zgk39MSu#0" frameborder=0></iframe>
+#### C98 Ruy Lopez
+<iframe width=600 height=371 src="https://lichess.org/study/embed/Hy92224V/4mNUxUv2#0" frameborder=0></iframe>
+
+### French Defense
+
+### Ruy Lopez, Closed
+
+### Caro-Kann
+
+### French Winawer
 
 ## Black
 
-### E80 King's Indian
+### Sicilian
+
+### King's Indian
+
+#### E80 King's Indian
 <iframe width=780 height=500 src="https://lichess.org/study/embed/L4TYwEuo/WYePmJ4j?bg=dark&theme=metal#0" frameborder=0></iframe>
 
-### E63 King's Indian
+#### E63 King's Indian
 <iframe width=780 height=500 src="https://lichess.org/study/embed/SlW210IW/RrXwgv1i?bg=dark&theme=metal#0" frameborder=0></iframe>
+
+### Sicilian Najdorf
+
+### Nimzo Indian
+
+### Grunfeld
+
+### English
