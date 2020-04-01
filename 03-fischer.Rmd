@@ -1,24 +1,42 @@
 # Robert James Fischer {#fischer}
+Study naming scheme:
+Fischer White B32 Sicilian
 
 ## White
 
 ### Sicilian
 
 #### B90 Sicilian
-<iframe width=780 height=500 src="https://lichess.org/study/embed/cTvjN6m5/QyZ98fXM?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/cTvjN6m5/QyZ98fXM?bg=dark&theme=metal" frameborder=0></iframe>
+
+#### B32 Sicilian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/myxSHgD2/dxwwFydO?bg=dark&theme=metal" frameborder=0></iframe>
+
+#### B88 Sicilian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/ICmTlO4a/xIc223uJ?bg=dark&theme=metal" frameborder=0></iframe>
+
+#### B44 Sicilian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/mOtLu8Lr/XezR5P3D?bg=dark&theme=metal" frameborder=0></iframe>
+
+#### B77 Sicilian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/qFlnOeX0/sFUeyU1n?bg=dark&theme=metal" frameborder=0></iframe>
 
 ### Ruy Lopez
-Fischer White C69 Ruy Lopez
+
 #### C92 Ruy Lopez
-<iframe width=780 height=500 src="https://lichess.org/study/embed/1TcDfzkI/etzKecK9#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/1TcDfzkI/etzKecK9?bg=dark&theme=metal" frameborder=0></iframe>
+
 #### C69 Ruy Lopez
-<iframe width=600 height=371 src="https://lichess.org/study/embed/34Xske1A/uNpLD4sP#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/34Xske1A/uNpLD4sP?bg=dark&theme=metal" frameborder=0></iframe>
+
 #### C95 Ruy Lopez
-<iframe width=600 height=371 src="https://lichess.org/study/embed/Q5fzLOUh/GMHEodv4#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/Q5fzLOUh/GMHEodv4?bg=dark&theme=metal" frameborder=0></iframe>
+
 #### C97 Ruy Lopez
-<iframe width=600 height=371 src="https://lichess.org/study/embed/DvkMZzBV/zgk39MSu#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/DvkMZzBV/zgk39MSu?bg=dark&theme=metal" frameborder=0></iframe>
+
 #### C98 Ruy Lopez
-<iframe width=600 height=371 src="https://lichess.org/study/embed/Hy92224V/4mNUxUv2#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/Hy92224V/4mNUxUv2?bg=dark&theme=metal" frameborder=0></iframe>
 
 ### French Defense
 
@@ -32,13 +50,37 @@ Fischer White C69 Ruy Lopez
 
 ### Sicilian
 
+#### B92 Sicilian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/CWq7QyKv/e2EyjSsY?bg=dark&theme=metal" frameborder=0></iframe>
+
+#### B99 Sicilian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/sMkhQ5qZ/tZRnIUWZ?bg=dark&theme=metal" frameborder=0></iframe>
+
+#### B90 Sicilian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/hF6VicA8/WZ4wPjLC?bg=dark&theme=metal" frameborder=0></iframe>
+
+#### B97 Sicilian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/hO01JkkY/6aJfMhd5?bg=dark&theme=metal" frameborder=0></iframe>
+
+#### B93 Sicilian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/MwBVq7Tj/OKvwnmkC?bg=dark&theme=metal" frameborder=0></iframe>
+
 ### King's Indian
 
 #### E80 King's Indian
-<iframe width=780 height=500 src="https://lichess.org/study/embed/L4TYwEuo/WYePmJ4j?bg=dark&theme=metal#0" frameborder=0></iframe>
+<iframe width=780 height=500 src="https://lichess.org/study/embed/L4TYwEuo/WYePmJ4j?bg=dark&theme=metal" frameborder=0></iframe>
 
-#### E63 King's Indian
-<iframe width=780 height=500 src="https://lichess.org/study/embed/SlW210IW/RrXwgv1i?bg=dark&theme=metal#0" frameborder=0></iframe>
+#### E62 King's Indian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/SlW210IW/RrXwgv1i?bg=dark&theme=metal" frameborder=0></iframe>
+
+#### E97 King's Indian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/VRnmsZW9/zoZED3vk?bg=dark&theme=metal" frameborder=0></iframe>
+
+#### E60 King's Indian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/YNWejR2f/onPgq90b?bg=dark&theme=metal" frameborder=0></iframe>
+
+#### E67 King's Indian
+<iframe width=780 height=500 src="https://lichess.org/study/embed/TrtOLQ9b/VgOmzPTD?bg=dark&theme=metal" frameborder=0></iframe>
 
 ### Sicilian Najdorf
 
